@@ -1,0 +1,22 @@
+Publi class saucedemo(){
+
+    public void validation of cost(){
+
+    Webdrivermanager.Chromedriver().setup();
+    Webdriver driver = new ChromeDriver();
+    driver.get("https://www.saucedemo.com/inventory.html");
+    driver.Manage().window().maximize();
+    List<Webelemet> Listofcost = driver.findelements(By.xpath("//div[@class='inventory_item_price']"));
+    
+     for(int i=0;i<=Listofcost.length;i++){
+
+         
+
+}
+    
+
+}
+
+}https://www.saucedemo.com/inventory.html
+https://plan.io/blog/agile-ceremonies-guide/#:~:text=team%20moving%20forward.-,A%20'quick%2Dstart'%20guide%20to%20the%205%20Agile%20ceremonies,can%20then%20get%20feedback%20on.
+https://stackoverflow.com/questions/17746565/verify-list-elements-by-selenium-webdriver
